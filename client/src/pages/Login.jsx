@@ -55,7 +55,7 @@ export default function Login() {
           <div className="form-group">
             <label className="form-label">Benutzername</label>
             <input className="form-input" value={username} autoFocus
-              onChange={e => setUsername(e.target.value)} placeholder="z. B. nemanja" />
+              onChange={e => setUsername(e.target.value)} placeholder="z. B. Max123" />
           </div>
           <div className="form-group">
             <label className="form-label">Passwort</label>
